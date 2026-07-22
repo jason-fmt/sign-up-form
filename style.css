@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.background-img-container {
+  width: 700px;
+  height: 100vh;
+  background-image: url("./images/leaves.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.background-img-container a {
+  color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  width: 100%;
+  background-color: rgba(18, 16, 16, 0.468);
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container img {
+  width: 100px;
+}
+
+.logo-container h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Geist Pixel";
+  margin-left: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px;
+  font-size: 18px;
+}
+
+.content-container form {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.content-container form h2 {
+  margin-bottom: 12px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 40px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input {
+  width: 240px;
+  height: 24px;
+  border: lightslategray solid 0.25px;
+}
+
+.content-container button {
+  margin-bottom: 20px;
+  background-color: #596D48;
+  color: #fff;
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #596D48;
+}
